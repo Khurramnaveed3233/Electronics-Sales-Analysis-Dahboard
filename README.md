@@ -121,7 +121,7 @@ The dashboard simulates what a **Sales Data Analyst** would deliver to business 
 
 **Khurram Naveed**  
 📧 khurramnaveed4545@gmail.com  
-🔗 [LinkedIn] https://www.linkedin.com/in/khurram-naveed-0083851aa/
+🔗 LinkedIn:  https://www.linkedin.com/in/khurram-naveed-0083851aa/
 
 ---
 
