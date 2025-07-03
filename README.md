@@ -1,5 +1,3 @@
-# Portfolio Project: Electronics Sales Analytics Dashboard
-
 
 ![Electronic sales](https://github.com/user-attachments/assets/1d03a5ee-beb1-4043-a2db-7852f4842d46)
 
