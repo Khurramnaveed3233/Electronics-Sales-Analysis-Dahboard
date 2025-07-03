@@ -3,137 +3,119 @@
 
 ![Electronic sales](https://github.com/user-attachments/assets/1d03a5ee-beb1-4043-a2db-7852f4842d46)
 
-⚡ Electronics Sales Analytics Dashboard (2023)
+# ⚡ Electronics Sales Analytics Dashboard (2023)
 
-📊 Project Overview
-This project presents an end-to-end sales analytics dashboard for a fictional Electronics Retailer. Built in Power BI, it transforms raw sales data into insightful visualizations that help understand monthly revenue trends, regional performance, top salespeople, and customer contributions.
+![Electronics Sales Dashboard](./images/electronics_dashboard.jpg)
 
-The dashboard simulates what a Sales Data Analyst would deliver to decision-makers in a FMCG or retail organization, offering a real-world view into sales performance monitoring and strategy planning.
+## 📊 Project Overview
 
-🎯 Objectives
-Track monthly revenue patterns and performance fluctuations
+This project presents an end-to-end sales analytics dashboard for a fictional **Electronics Retailer**. Built using **Power BI**, it transforms raw sales data into insightful visualizations that help identify monthly revenue trends, regional performance, top salespeople, and key customer contributions.
 
-Identify top-performing salespeople and customers
+The dashboard simulates what a **Sales Data Analyst** would deliver to business leadership for data-driven sales decisions.
 
-Compare regional revenue and assess market penetration
+---
 
-Understand payment method trends across customer base
+## 🎯 Objectives
 
-Deliver a one-page executive summary using KPIs and visual cues
+- Track monthly revenue patterns and performance fluctuations  
+- Identify top-performing salespeople and customers  
+- Compare regional revenue to assess market performance  
+- Understand customer payment behavior  
+- Provide a one-page interactive summary for executives
 
-📁 Dataset Overview
-Source: Fictional electronics retailer sales data
-Timeframe: January to December 2023
-Columns Likely Included (Inferred):
+---
 
-Month
+## 📁 Dataset Overview
 
-Salesperson
+- **Source:** Simulated dataset (fictional electronics sales)
+- **Timeframe:** January to December 2023
+- **Inferred Columns:**
+  - `Month`
+  - `Salesperson`
+  - `Customer_Name`
+  - `Ship_City`
+  - `Region`
+  - `Revenue`
+  - `Payment_Type`
+  - `Category`
+  - `Product_Name`
 
-Customer_Name
+---
 
-Ship_City
+## 🧰 Tools & Technologies Used
 
-Region
+- 🛠️ **Power BI Desktop** – Data modeling and dashboard creation  
+- 🧪 **Power Query** – Data cleaning and transformation  
+- 📊 **DAX** – Custom KPIs and calculated measures  
+- 📁 **Excel/CSV** – Source data (assumed)
 
-Revenue
+---
 
-Payment_Type
+## 📈 Key Metrics Displayed
 
-Category
+| Metric              | Value                  |
+|---------------------|------------------------|
+| **Total Products**  | 24                     |
+| **Categories**      | 14                     |
+| **Ship States**     | 12                     |
+| **Peak Month**      | December (67K)         |
+| **Top Salesperson** | Nancy Freehafer (104K) |
 
-Product_Name
+---
 
-🧰 Tools Used
-🛠️ Power BI Desktop – For data modeling and report creation
+## 📊 Dashboard Visuals & Insights
 
-🧪 Power Query – Used for ETL (cleaning, transformation, and shaping data)
+### 1. 📆 Revenue by Month  
+- Highest revenue in **December (67K)** and **June (56K)**
+- Low performance in **February (20K)** and **April (21K)**
 
-📊 DAX – Created measures and KPIs (monthly revenue, category totals, etc.)
+### 2. 👥 Revenue by Salesperson  
+- **Top 3 contributors:**
+  - Nancy Freehafer – 104K  
+  - Anne Larsen – 94K  
+  - Andrew Cencini – 67K
 
-📁 Excel (assumed) – Original data source for importing and testing
+### 3. 🧍 Revenue by Customer  
+- Highest revenue from:
+  - Cust-D (67K)
+  - Cust-H (50K)
+  - Cust-BB (44K)
 
-📈 Key Metrics Displayed
+### 4. 🌍 Revenue by Region  
+- **North** leads with 142K, followed by **East (108K)**
+- **South (94K)** and **West (91K)** show potential for growth
 
-Metric	Value	Description
-Total Products	24	Unique electronics products sold
-Categories	14	Product categories included in dataset
-Ship States	12	States served across regions
-Peak Month	December	Highest revenue (67K) recorded
-Top Salesperson	Nancy Freehafer (104K)	Leading revenue contributor
+### 5. 💳 Revenue by Payment Type  
+- Credit Card: 259K (60%)  
+- Check: 129K (30%)  
+- Cash: 47K (11%)
 
-📊 Dashboard Visuals & Insights
+### 6. 📦 Revenue Bins  
+- Majority of revenue is in the highest bin (186K+), indicating high-value transactions
 
-1. 📆 Revenue by Month
-Sales grew consistently toward year-end, peaking in June (56K) and December (67K).
+---
 
-Revenue dips in February (20K) and April (21K) indicate potential for seasonal marketing or discount campaigns.
+## 💡 Business Insights
 
-2. 👥 Revenue by Salesperson
-Top 3 Performers:
+1. **Peak Sales Periods:** Strong performance in June and December  
+2. **Top Performers:** Three salespeople contribute to the majority of revenue  
+3. **High-Value Customers:** Retention strategies should focus on Cust-D, Cust-H  
+4. **Regional Opportunities:** South and West can be targeted for growth  
+5. **Digital Payment Preference:** Focus on promoting credit card use, reduce reliance on cash
 
-Nancy Freehafer – 104K
+---
 
-Anne Larsen – 94K
+## 📌 Strategic Recommendations
 
-Andrew Cencini – 67K
+| Area                | Recommendation                                                |
+|---------------------|---------------------------------------------------------------|
+| 🛍️ Inventory         | Prioritize top-selling product categories                     |
+| 🌎 Geography         | Invest in regional marketing for South & West                 |
+| 💳 Payment Methods   | Enhance digital payment experience                            |
+| 👨‍💼 Sales Team       | Recognize and incentivize top performers                      |
+| 📊 Reporting         | Use this dashboard as a template for monthly performance reviews |
 
-Represents over 60% of total sales, indicating a high-performing sales force core.
+---
 
-3. 🧍‍♂️ Revenue by Customer
-Key clients:
+## 📁 Project Structure
 
-Cust-D (67K)
-
-Cust-H (50K)
-
-Cust-BB (44K)
-
-High-value customers should be targeted with retention and upselling strategies.
-
-4. 🌐 Revenue by Region
-North Region leads with 142K, followed by East (108K).
-
-Opportunity to strengthen outreach in South (94K) and West (91K) regions.
-
-5. 💳 Revenue by Payment Type
-Credit Card is dominant (259K / 60%)
-
-Check (129K / 30%) and Cash (47K / 11%) follow
-
-Indicates tech-savvy customer base; can reduce manual payment friction further
-
-6. 🧾 Revenue Distribution (Bins)
-Highest revenue cluster: 186K+
-
-Suggests bulk sales or high-value products drive top-line performance
-
-💡 Business Insights
-Seasonality in Revenue
-
-Peak months align with potential holiday or mid-year campaigns (June, December)
-
-Sales Team Efficiency
-
-A small number of salespeople contribute to a large share of revenue — ideal for performance-based bonuses
-
-Customer Profitability
-
-5 key customers drive majority of revenue — enable account-based strategies
-
-Regional Focus
-
-North and East are most profitable; South and West need tailored marketing
-
-Payment Behavior
-
-Credit card usage dominates, suggesting digital and seamless checkout experiences are essential
-
-📌 Strategic Recommendations
-Area	Recommendation
-📅 Seasonality	Launch mid-year and year-end sales campaigns
-👨‍💼 Sales Strategy	Recognize and incentivize top-performing salespeople
-🧍 Customer Loyalty	Introduce loyalty programs for Cust-D, Cust-H, etc.
-🌍 Regional Outreach	Expand campaigns in underperforming regions (South/West)
-💳 Payment Channels	Promote digital payments; phase out less-used cash methods
-📊 Reporting	Standardize this dashboard for monthly executive reporting
