@@ -5,8 +5,6 @@
 
 # ⚡ Electronics Sales Analytics Dashboard (2023)
 
-![Electronics Sales Dashboard](./images/electronics_dashboard.jpg)
-
 ## 📊 Project Overview
 
 This project presents an end-to-end sales analytics dashboard for a fictional **Electronics Retailer**. Built using **Power BI**, it transforms raw sales data into insightful visualizations that help identify monthly revenue trends, regional performance, top salespeople, and key customer contributions.
@@ -117,5 +115,16 @@ The dashboard simulates what a **Sales Data Analyst** would deliver to business 
 
 ---
 
-## 📁 Project Structure
+---
+
+## 🧑‍💼 About Me
+
+**Khurram Naveed**  
+📧 khurramnaveed4545@gmail.com  
+🔗 [LinkedIn] https://www.linkedin.com/in/khurram-naveed-0083851aa/
+
+---
+
+> ✅ *Feel free to clone this project, explore the visuals, or suggest improvements. If you're a recruiter or hiring manager, I'm available for full-time roles in Business Intelligence and Data Analysis.*
+
 
