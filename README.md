@@ -65,7 +65,9 @@ This analysis enables:
 - **Power BI** (Dashboard creation, interactive visuals)  
 - **Power Query** (Data cleaning & transformation)  
 - **DAX** (Calculated measures like YoY growth, revenue bins)  
-- **SQL** (Hypothetical queries for data extraction & aggregation)  
+- **SQL** (Hypothetical queries for data extraction & aggregation)
+
+--- 
 
 ### 📂 Example SQL Queries (Hypothetical)  
 
@@ -77,6 +79,8 @@ SELECT
 FROM Sales_Data
 GROUP BY Month
 ORDER BY Total_Revenue DESC;
+
+---
 
 ## 🚧 Challenges Faced & Solutions
 
