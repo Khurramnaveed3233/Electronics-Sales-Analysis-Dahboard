@@ -50,6 +50,7 @@ This project addresses these challenges by transforming raw sales data into **st
 ---
 
 ## 💡 Impact of the Project  
+
 This analysis enables:  
 ✅ **Strategic inventory planning** (stocking best-selling products before peak months)  
 ✅ **Sales team optimization** (rewarding top performers, training underperformers)  
@@ -82,6 +83,7 @@ ORDER BY Total_Revenue DESC;
 
 ---
 
+
 ## 🚧 Challenges Faced & Solutions
 
 ### 1. Data Cleaning & Standardization
@@ -98,7 +100,8 @@ ORDER BY Total_Revenue DESC;
 
 ### 4. Handling Missing Data  
 - **Issue:** Some customer records had missing regions  
-- **Solution:** Applied COALESCE in SQL (hypothetical) to fill gaps with "Unknown"  
+- **Solution:** Applied COALESCE in SQL (hypothetical) to fill gaps with "Unknown"
+
 
 ---
 
