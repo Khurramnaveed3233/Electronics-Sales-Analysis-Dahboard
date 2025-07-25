@@ -2,19 +2,19 @@
 
 ![Electronic sales](https://github.com/user-attachments/assets/1d03a5ee-beb1-4043-a2db-7852f4842d46)
 
-# 📊 Sales Insights Dashboard for an Electronics Retailer
+# Sales Insights Dashboard for an Electronics Retailer
 
 > A Power BI-driven sales analytics project that transforms raw data into actionable insights for data-driven decision-making.
 
 ---
 
-## 🧠 About the Project
+## About the Project
 
 This project simulates a real-world scenario where a **Sales Data Analyst** builds an end-to-end dashboard for a fictional electronics retailer. The goal is to empower leadership with clear insights into sales trends, top performers, high-value customers, and regional performance. The dashboard is interactive, visually compelling, and executive-ready.
 
 ---
 
-## ❓ Problem Statement
+## Problem Statement
 
 In the retail sector, leadership often lacks visibility into what’s truly driving revenue. This project addresses the need for a centralized analytics solution to answer key business questions:
 
@@ -101,27 +101,27 @@ This dashboard enables business leaders to:
 
 | Area | Insight |
 |------|---------|
-| 📅 Peak Sales | December & June – ideal for seasonal promos |
-| 🧑‍💼 Top Performers | 3 salespeople drive most revenue |
-| 🤝 Customer Loyalty | Focus on Cust-D, Cust-H for retention |
-| 🌎 Regional Growth | Invest in South & West |
-| 💳 Payments | Push for digital card payments |
+| Peak Sales | December & June – ideal for seasonal promos |
+| Top Performers | 3 salespeople drive most revenue |
+| Customer Loyalty | Focus on Cust-D, Cust-H for retention |
+| Regional Growth | Invest in South & West |
+| Payments | Push for digital card payments |
 
 ---
 
-## 📌 Strategic Recommendations
+## Strategic Recommendations
 
 | Area | Recommendation |
 |------|----------------|
-| 🛍️ Inventory | Prioritize top-selling categories |
-| 🌍 Geography | Expand in South & West regions |
-| 💳 Payments | Improve digital payment experience |
-| 👨‍💼 Sales Team | Incentivize top performers |
-| 📊 Reporting | Use this dashboard for monthly reviews |
+| Inventory | Prioritize top-selling categories |
+| Geography | Expand in South & West regions |
+| Payments | Improve digital payment experience |
+| Sales Team | Incentivize top performers |
+| Reporting | Use this dashboard for monthly reviews |
 
 ---
 
-## 🚧 Challenges Faced
+## Challenges Faced
 
 - **Data Modeling**: Built relationships from scratch using Power BI star schema
 - **DAX Complexity**: Created accurate KPIs for bins, top N filtering, and trend logic
@@ -130,7 +130,7 @@ This dashboard enables business leaders to:
 
 ---
 
-## 👨‍💼 About Me
+## About Me
 
 **Khurram Naveed**  
 Aspiring Business Intelligence Analyst | Power BI | Excel | SQL  
