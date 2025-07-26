@@ -134,9 +134,8 @@ This dashboard enables business leaders to:
 
 **Khurram Naveed**  
 Aspiring Business Intelligence Analyst | Power BI | Excel | SQL  
-📧 Email: khurramnaveed4545@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/khurram-naveed-0083851aa](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
-
+📧 [khurramnaveed4545@gmail.com](mailto:khurramnaveed4545@gmail.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
 ---
 
 ✅ Feel free to fork, use, or reference this project. If you're a recruiter or hiring manager, I'm actively looking for full-time roles in **Data Analysis** and **Business Intelligence**. Let's connect!
