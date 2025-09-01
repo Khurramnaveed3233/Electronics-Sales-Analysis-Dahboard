@@ -26,7 +26,7 @@ In the retail sector, leadership often lacks visibility into what’s truly driv
 
 ---
 
-## ✅ Problems Solved / Business Questions Answered
+## Problems Solved / Business Questions Answered
 
 - Monthly revenue patterns: Which months generate peak revenue?
 - Sales team analysis: Who are the top performers?
@@ -36,7 +36,7 @@ In the retail sector, leadership often lacks visibility into what’s truly driv
 
 ---
 
-## 🌟 Impact of the Project
+## Impact of the Project
 
 This dashboard enables business leaders to:
 
@@ -49,7 +49,7 @@ This dashboard enables business leaders to:
 
 ---
 
-## 🛠 Tools & Technologies Used
+## Tools & Technologies Used
 
 - **Power BI Desktop** – For building the dashboard
 - **Power Query** – For cleaning and transforming data
@@ -58,7 +58,7 @@ This dashboard enables business leaders to:
 
 ---
 
-## 🧮 SQL Concepts (Simulated Logic)
+## SQL Concepts (Simulated Logic)
 
 - **Aggregations**: `SUM(Revenue)` by Month, Region, Salesperson
 - **Joins**: Customer + Sales + Product tables
@@ -68,36 +68,41 @@ This dashboard enables business leaders to:
 
 ---
 
-## 📊 Key Dashboard Metrics & Insights
+## Key Dashboard Metrics & Insights
 
-### 📆 Revenue by Month
+### Revenue by Month
+
 - **Peak**: December (67K), June (56K)
 - **Low**: February (20K), April (21K)
 
-### 👥 Revenue by Salesperson
+###  Revenue by Salesperson
+
 - **Top 3**:
   - Nancy Freehafer – 104K
   - Anne Larsen – 94K
   - Andrew Cencini – 67K
 
-### 🧍 Revenue by Customer
+###  Revenue by Customer
+
 - **High-Value Clients**:
   - Cust-D (67K)
   - Cust-H (50K)
   - Cust-BB (44K)
 
-### 🌍 Revenue by Region
+### Revenue by Region
+
 - **Best**: North (142K), East (108K)
 - **Growth Potential**: South (94K), West (91K)
 
-### 💳 Revenue by Payment Type
+###  Revenue by Payment Type
+
 - Credit Card – 259K (60%)
 - Check – 129K (30%)
 - Cash – 47K (11%)
 
 ---
 
-## 💡 Business Insights
+##  Business Insights
 
 | Area | Insight |
 |------|---------|
@@ -134,11 +139,11 @@ This dashboard enables business leaders to:
 
 **Khurram Naveed**  
 Aspiring Business Intelligence Analyst | Power BI | Excel | SQL  
-📧 [khurramnaveed4545@gmail.com](mailto:khurramnaveed4545@gmail.com)  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
----
+[khurramnaveed4545@gmail.com](mailto:khurramnaveed4545@gmail.com)  
+[LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
+--
 
-✅ Feel free to fork, use, or reference this project. If you're a recruiter or hiring manager, I'm actively looking for full-time roles in **Data Analysis** and **Business Intelligence**. Let's connect!
+Feel free to fork, use, or reference this project. If you're a recruiter or hiring manager, I'm actively looking for full-time roles in **Data Analysis** and **Business Intelligence**. Let's connect!
 
 
 
