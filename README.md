@@ -2,9 +2,6 @@
 
 ![Electronic sales](https://github.com/user-attachments/assets/1d03a5ee-beb1-4043-a2db-7852f4842d46)
 
-
-# 🖥️ ElectroSales Analytics – Retail Performance Dashboard
-
 > **Role:** Data Analyst | **Tools:** Power BI · DAX · Power Query · Excel | **Domain:** Retail · Electronics · Sales Analytics
 
 ---
@@ -158,12 +155,6 @@ GROUP BY FORMAT(sale_date, 'yyyy-MM');
 ├── 🖼️  Electronics Sales Dashboard.jpg  — Dashboard preview screenshot
 └── 📄 README.md                        — Project documentation
 ```
-
----
-
-##  Dashboard Preview
-
-![Electronics Sales Dashboard](Electronics%20Sales%20Dashboard.jpg)
 
 ---
 
