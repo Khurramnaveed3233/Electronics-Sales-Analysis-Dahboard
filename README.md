@@ -2,150 +2,183 @@
 
 ![Electronic sales](https://github.com/user-attachments/assets/1d03a5ee-beb1-4043-a2db-7852f4842d46)
 
-# Sales Insights Dashboard for an Electronics Retailer
 
-> A Power BI-driven sales analytics project that transforms raw data into actionable insights for data-driven decision-making.
+# 🖥️ ElectroSales Analytics – Retail Performance Dashboard
 
----
-
-## About the Project
-
-This project simulates a real-world scenario where a **Sales Data Analyst** builds an end-to-end dashboard for a fictional electronics retailer. The goal is to empower leadership with clear insights into sales trends, top performers, high-value customers, and regional performance. The dashboard is interactive, visually compelling, and executive-ready.
+> **Role:** Data Analyst | **Tools:** Power BI · DAX · Power Query · Excel | **Domain:** Retail · Electronics · Sales Analytics
 
 ---
 
-## Problem Statement
+##  Project Overview
 
-In the retail sector, leadership often lacks visibility into what’s truly driving revenue. This project addresses the need for a centralized analytics solution to answer key business questions:
-
-- When do sales peak and dip?
-- Who are the top salespeople and customers?
-- Which regions underperform?
-- What payment methods are most common?
-- How can we better allocate resources and improve performance?
+Built an **end-to-end Power BI sales analytics dashboard** for a fictional electronics retailer — transforming raw transactional data into executive-ready insights. The dashboard provides leadership with complete visibility into **revenue trends, top-performing salespeople, high-value customers, regional performance, and payment behavior** — all on a single interactive page.
 
 ---
 
-## Problems Solved / Business Questions Answered
+##  Business Problem
 
-- Monthly revenue patterns: Which months generate peak revenue?
-- Sales team analysis: Who are the top performers?
-- Customer segmentation: Which clients drive the most revenue?
-- Regional insights: Which regions require more focus?
-- Payment behavior: How do customers prefer to pay?
+Retail leadership lacked a centralized analytics solution to answer critical business questions:
 
----
-
-## Impact of the Project
-
-This dashboard enables business leaders to:
-
-- Identify peak sales periods and optimize campaigns
-- Recognize and reward top-performing salespeople
-- Retain high-value customers
-- Boost underperforming regions
-- Promote preferred digital payment methods
-- Review all KPIs on a **single, interactive page**
+- **When do sales peak and dip** — and how should campaigns align with these patterns?
+- **Who are the top salespeople** — and who needs support or incentivization?
+- **Which customers drive the most revenue** — and how do we retain them?
+- **Which regions underperform** — and where should we invest to grow?
+- **What payment methods do customers prefer** — and how do we optimize checkout experience?
 
 ---
 
-## Tools & Technologies Used
+## 📊 Key KPIs & Metrics
 
-- **Power BI Desktop** – For building the dashboard
-- **Power Query** – For cleaning and transforming data
-- **DAX** – To create custom KPIs and calculated metrics
-- **Excel/CSV** – Simulated raw dataset
-
----
-
-## SQL Concepts (Simulated Logic)
-
-- **Aggregations**: `SUM(Revenue)` by Month, Region, Salesperson
-- **Joins**: Customer + Sales + Product tables
-- **Ranking Functions**: To identify top salespeople/customers
-- **Trend Analysis**: Month-over-month performance
-- **Binning**: Revenue grouped into transaction size buckets
+| Metric | Value |
+|---|---|
+| Peak Revenue Month | December — $67K |
+| Second Peak Month | June — $56K |
+| Lowest Revenue Month | February — $20K |
+| Top Salesperson | Nancy Freehafer — $104K |
+| Top Customer | Cust-D — $67K |
+| Best Region | North — $142K |
+| Credit Card Payments | $259K (60% of all transactions) |
 
 ---
 
-## Key Dashboard Metrics & Insights
+##  Key Findings
 
 ### Revenue by Month
+| Period | Revenue | Insight |
+|---|---|---|
+| December | $67K — Peak | Year-end spending surge |
+| June | $56K — Peak | Mid-year promotional lift |
+| February | $20K — Low | Weakest month — promotional opportunity |
+| April | $21K — Low | Second weakest — needs targeted campaign |
 
-- **Peak**: December (67K), June (56K)
-- **Low**: February (20K), April (21K)
+### Revenue by Salesperson
+| Salesperson | Revenue | Rank |
+|---|---|---|
+| Nancy Freehafer | $104K | 🥇 #1 |
+| Anne Larsen | $94K | 🥈 #2 |
+| Andrew Cencini | $67K | 🥉 #3 |
 
-###  Revenue by Salesperson
+- **Top 3 salespeople drive the majority of total revenue** — clear case for incentive programs and script replication
 
-- **Top 3**:
-  - Nancy Freehafer – 104K
-  - Anne Larsen – 94K
-  - Andrew Cencini – 67K
+### Revenue by Customer
+| Customer | Revenue |
+|---|---|
+| Cust-D | $67K |
+| Cust-H | $50K |
+| Cust-BB | $44K |
 
-###  Revenue by Customer
-
-- **High-Value Clients**:
-  - Cust-D (67K)
-  - Cust-H (50K)
-  - Cust-BB (44K)
+- High-value customers are concentrated — **retention programs targeting top 3 clients** can significantly protect revenue
 
 ### Revenue by Region
+| Region | Revenue | Status |
+|---|---|---|
+| North | $142K | ✅ Best performer |
+| East | $108K | ✅ Strong |
+| South | $94K | ⚠️ Growth potential |
+| West | $91K | ⚠️ Needs investment |
 
-- **Best**: North (142K), East (108K)
-- **Growth Potential**: South (94K), West (91K)
+### Revenue by Payment Type
+| Payment Method | Revenue | Share |
+|---|---|---|
+| Credit Card | $259K | 60% |
+| Check | $129K | 30% |
+| Cash | $47K | 11% |
 
-###  Revenue by Payment Type
-
-- Credit Card – 259K (60%)
-- Check – 129K (30%)
-- Cash – 47K (11%)
-
----
-
-##  Business Insights
-
-| Area | Insight |
-|------|---------|
-| Peak Sales | December & June – ideal for seasonal promos |
-| Top Performers | 3 salespeople drive most revenue |
-| Customer Loyalty | Focus on Cust-D, Cust-H for retention |
-| Regional Growth | Invest in South & West |
-| Payments | Push for digital card payments |
+- Credit cards dominate — **improving digital payment experience** can capture remaining cash/check customers
 
 ---
 
-## Strategic Recommendations
+##  Strategic Recommendations
 
 | Area | Recommendation |
-|------|----------------|
-| Inventory | Prioritize top-selling categories |
-| Geography | Expand in South & West regions |
-| Payments | Improve digital payment experience |
-| Sales Team | Incentivize top performers |
-| Reporting | Use this dashboard for monthly reviews |
+|---|---|
+| Seasonal Campaigns | Launch promotions in February and April to lift low-revenue months |
+| Inventory Planning | Stock up for December and June peak periods |
+| Sales Team | Incentivize top performers and replicate Nancy's approach across the team |
+| Customer Retention | Create VIP programs for Cust-D, Cust-H, and Cust-BB |
+| Regional Investment | Increase marketing spend in South and West regions |
+| Payments | Streamline digital payment experience to convert cash and check users |
+| Reporting | Use this dashboard as a **recurring monthly sales health check** |
 
 ---
 
-## Challenges Faced
+##  Technical Approach
 
-- **Data Modeling**: Built relationships from scratch using Power BI star schema
-- **DAX Complexity**: Created accurate KPIs for bins, top N filtering, and trend logic
-- **Visual Clarity**: Simplified overcrowded visuals for executive readability
-- **Simulated Data**: Designed believable business use cases from a fictional dataset
+### Power BI
+- **Star schema** data model — Customer, Sales, Product, and Region tables connected via keys
+- **DAX measures** for monthly revenue, MoM growth, top N salesperson ranking, and payment share
+- **Revenue binning** — transactions grouped into size buckets for distribution analysis
+- **Interactive slicers** for month, region, salesperson, and payment type
+- **Single-page executive dashboard** designed for leadership readability
+- **KPI cards** for instant visibility into top-line metrics
+
+### Power Query
+- ETL pipeline for data cleaning, transformation, and normalization
+- Null handling, data type standardization, and date dimension creation
+- Customer and salesperson ID mapping for relationship building
+
+### SQL Logic Applied (Simulated)
+```sql
+-- Top Salespeople by Revenue
+SELECT
+    salesperson_name,
+    SUM(revenue) AS total_revenue,
+    RANK() OVER (ORDER BY SUM(revenue) DESC) AS sales_rank
+FROM sales
+GROUP BY salesperson_name;
+
+-- Monthly Revenue Trend
+SELECT
+    FORMAT(sale_date, 'yyyy-MM') AS month,
+    SUM(revenue) AS monthly_revenue,
+    LAG(SUM(revenue)) OVER (ORDER BY FORMAT(sale_date, 'yyyy-MM')) AS prev_month,
+    SUM(revenue) - LAG(SUM(revenue)) OVER (ORDER BY FORMAT(sale_date, 'yyyy-MM')) AS MoM_change
+FROM sales
+GROUP BY FORMAT(sale_date, 'yyyy-MM');
+```
 
 ---
 
-## About Me
+##  Challenges Faced & Solutions
 
-**Khurram Naveed**  
-Aspiring Business Intelligence Analyst | Power BI | Excel | SQL  
-[khurramnaveed4545@gmail.com](mailto:khurramnaveed4545@gmail.com)  
-[LinkedIn Profile](https://www.linkedin.com/in/khurram-naveed-0083851aa/)
---
+| Challenge | Solution |
+|---|---|
+| Data Modeling from scratch | Built star schema with proper relationships in Power BI |
+| DAX Complexity | Created accurate KPIs for bins, Top N filtering, and trend logic |
+| Visual Clarity | Simplified overcrowded visuals for executive-level readability |
+| Simulated Data | Designed realistic business scenarios from a fictional dataset |
 
-Feel free to fork, use, or reference this project. If you're a recruiter or hiring manager, I'm actively looking for full-time roles in **Data Analysis** and **Business Intelligence**. Let's connect!
+---
 
+##  Repository Structure
+```
+📂 Electronics-Sales-Analysis-Dashboard
+├── 📊 ElectroSales_Dashboard.pbix      — Interactive Power BI dashboard
+├── 📄 SalesData.csv                    — Simulated electronics sales dataset
+├── 🖼️  Electronics Sales Dashboard.jpg  — Dashboard preview screenshot
+└── 📄 README.md                        — Project documentation
+```
 
+---
 
+##  Dashboard Preview
 
+![Electronics Sales Dashboard](Electronics%20Sales%20Dashboard.jpg)
 
+---
+
+##  About
+
+**Khurram Naveed** — Data Analyst specializing in Power BI, SQL, and business intelligence.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/khurramnaveed3233)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/Khurramnaveed3233)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:khurramnaveed4545@gmail.com)
+
+---
+
+>  *This project demonstrates end-to-end Power BI dashboard development — from raw data modeling to executive-ready visual storytelling — proving that structured analytics can transform retail data into direct revenue and operational decisions.*
+
+---
+
+⭐ *If you are a recruiter or hiring manager — I am actively seeking Data Analyst and Business Intelligence roles. Let's connect!*
